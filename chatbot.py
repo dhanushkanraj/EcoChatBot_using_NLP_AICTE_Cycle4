@@ -47,9 +47,9 @@ counter = 0
 
 def main():
     global counter
-    st.title("Intents of Chatbot using NLP")
+    st.title("EcoChatBot powered by NLP!")
 
-    # Addidng image
+    # Adding image
     image_url = r"C:\Users\DELL\Desktop\Implementation of ChatBot using NLP\3455231.jpg"  
     st.image(image_url, caption="Welcome to the Chatbot")
 
@@ -59,7 +59,7 @@ def main():
 
     # Home Menu
     if choice == "Home":
-        st.write("Welcome to the chatbot. Please type a message and press Enter to start the conversation.")
+        st.write("Welcome to EcoChatBot! 🌱. Please type a message and press Enter to start the conversation.")
 
         # Check if the chat_log.csv file exists
         if not os.path.exists('chat_log.csv'):
@@ -68,7 +68,10 @@ def main():
                 csv_writer.writerow(['User Input', 'Chatbot Response', 'Timestamp'])
 
         counter += 1
-        user_input = st.text_input("You:", key=f"user_input_{counter}")
+
+        # Adding "Type here" placeholder in the search bar
+        user_input = st.text_input("Let's start the conversation and work together to create a greener world! 🌍💚:", 
+                                   key=f"user_input_{counter}", placeholder="Type here...")  # Placeholder added here
 
         if user_input:
 
@@ -106,7 +109,7 @@ def main():
 
     elif choice == "About":
  
-        st.write("""
+        st.write(""" 
         EcoChatBot is designed to help users with information and suggestions related to environmental sustainability. 
         It provides guidance on various eco-friendly practices, energy conservation, and other green initiatives. 
         The chatbot uses Natural Language Processing (NLP) to analyze user input and provide tailored responses, such as 
@@ -118,7 +121,7 @@ def main():
 
         st.write("""
         Some examples of intents that EcoChatBot can respond to include:
-        -Greeting: 
+        - Greeting: 
           - User: "Hello"
           - Chatbot: "Hi! How can I help you today?"
           
