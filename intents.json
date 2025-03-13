@@ -1,0 +1,152 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "How are you?", "What's up?"],
+        "responses": ["Hello! I'm your EcoChatBot.", "Hey there! Ready to live sustainably?", "Hi! How can I help you go green today?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+        "responses": ["Goodbye! Stay eco-friendly!", "See you soon! Keep making sustainable choices!", "Take care and go green!"]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it"],
+        "responses": ["You're welcome! Keep up the sustainable lifestyle!", "Glad I could help! Let's save the planet together!"]
+    },
+    {
+        "tag": "about",
+        "patterns": ["What can you do?", "Who are you?", "What is your purpose?"],
+        "responses": [
+            "I'm EcoChatBot, your assistant for sustainable living!",
+            "I help you with eco-friendly tips, green shopping, waste management, and reducing your carbon footprint.",
+            "My goal is to make sustainable living easier for you!"
+        ]
+    },
+    {
+        "tag": "recycling",
+        "patterns": ["How do I recycle?", "What can I recycle?", "Recycling tips"],
+        "responses": [
+            "You can recycle paper, glass, metal, and certain plastics. Always check local recycling guidelines.",
+            "Avoid recycling contaminated items like greasy pizza boxes. Rinse recyclables before disposing of them.",
+            "Look for recycling symbols on packaging and sort items accordingly."
+        ]
+    },
+    {
+        "tag": "carbon_footprint",
+        "patterns": ["How do I reduce my carbon footprint?", "Ways to lower my carbon footprint"],
+        "responses": [
+            "Reduce energy use by switching to LED bulbs, using public transport, and eating a plant-based diet.",
+            "Limit single-use plastics, support sustainable brands, and use renewable energy sources when possible.",
+            "Drive less, fly less, and choose eco-friendly travel options."
+        ]
+    },
+    {
+        "tag": "sustainable_food",
+        "patterns": ["What are sustainable food choices?", "How can I eat sustainably?"],
+        "responses": [
+            "Choose locally sourced, organic, and seasonal foods.",
+            "Reduce food waste by planning meals and composting scraps.",
+            "Eat more plant-based meals and reduce meat consumption."
+        ]
+    },
+    {
+        "tag": "energy_saving",
+        "patterns": ["How can I save energy at home?", "Tips for reducing electricity usage"],
+        "responses": [
+            "Unplug devices when not in use, switch to energy-efficient appliances, and use solar energy if possible.",
+            "Use natural lighting during the day and switch to LED bulbs.",
+            "Install smart thermostats and insulate your home to reduce heating and cooling costs."
+        ]
+    },
+    {
+        "tag": "eco_friendly_products",
+        "patterns": ["What are some eco-friendly products?", "Suggest sustainable brands"],
+        "responses": [
+            "Try reusable shopping bags, bamboo toothbrushes, and compostable utensils.",
+            "Look for brands that use biodegradable materials and ethical sourcing.",
+            "Avoid plastic packaging and opt for refillable products."
+        ]
+    },
+    {
+        "tag": "green_travel",
+        "patterns": ["How can I travel sustainably?", "Tips for eco-friendly travel"],
+        "responses": [
+            "Use public transport, carpool, or bike instead of driving alone.",
+            "Choose airlines that offer carbon offset programs.",
+            "Stay in eco-friendly hotels and support local businesses while traveling."
+        ]
+    },
+    {
+        "tag": "water_conservation",
+        "patterns": ["How can I save water?", "Ways to reduce water usage"],
+        "responses": [
+            "Take shorter showers, fix leaks, and use water-efficient appliances.",
+            "Collect rainwater for gardening and avoid overwatering plants.",
+            "Turn off the tap while brushing your teeth to save water."
+        ]
+    },
+    {
+        "tag": "zero_waste",
+        "patterns": ["What is zero waste?", "How can I go zero waste?"],
+        "responses": [
+            "Zero waste means reducing, reusing, and recycling as much as possible to eliminate trash.",
+            "Avoid single-use plastics, buy in bulk, and compost organic waste.",
+            "Use reusable items like cloth bags, stainless steel bottles, and glass jars."
+        ]
+    },
+    {
+        "tag": "sustainable_fashion",
+        "patterns": ["What is sustainable fashion?", "How to shop sustainably?"],
+        "responses": [
+            "Sustainable fashion focuses on ethical production, eco-friendly materials, and reducing waste.",
+            "Choose brands that use organic cotton, recycled fabrics, and fair trade practices.",
+            "Buy second-hand, repair clothes, and donate instead of discarding."
+        ]
+    },
+    {
+        "tag": "eco_friendly_home",
+        "patterns": ["How can I make my home eco-friendly?", "Sustainable home tips"],
+        "responses": [
+            "Use energy-efficient appliances, install solar panels, and reduce water waste.",
+            "Opt for natural cleaning products and avoid toxic chemicals.",
+            "Decorate with sustainable materials like bamboo, reclaimed wood, and recycled glass."
+        ]
+    },
+    {
+        "tag": "climate_change",
+        "patterns": ["What is climate change?", "How does climate change affect us?"],
+        "responses": [
+            "Climate change refers to long-term shifts in temperatures and weather patterns, mainly caused by human activities.",
+            "It leads to rising sea levels, extreme weather, and threats to biodiversity.",
+            "Reducing carbon emissions, using renewable energy, and protecting forests can help mitigate climate change."
+        ]
+    },
+    {
+        "tag": "sustainable_gardening",
+        "patterns": ["How can I start a sustainable garden?", "Eco-friendly gardening tips"],
+        "responses": [
+            "Use compost instead of chemical fertilizers and grow native plants.",
+            "Collect rainwater for irrigation and use natural pest control methods.",
+            "Plant trees and flowers that support pollinators like bees and butterflies."
+        ]
+    },
+    {
+        "tag": "plastic_pollution",
+        "patterns": ["How can I reduce plastic waste?", "Ways to cut down on plastic"],
+        "responses": [
+            "Avoid single-use plastics like straws, bags, and bottles.",
+            "Choose reusable alternatives like cloth bags, stainless steel straws, and glass containers.",
+            "Support businesses that use biodegradable or minimal packaging."
+        ]
+    },
+    {
+        "tag": "sustainable_investing",
+        "patterns": ["What is sustainable investing?", "How can I invest sustainably?"],
+        "responses": [
+            "Sustainable investing means putting your money into companies that focus on environmental and social good.",
+            "Look for green bonds, ethical funds, and businesses committed to reducing carbon footprints.",
+            "Invest in renewable energy, sustainable agriculture, and companies with fair labor practices."
+        ]
+    }
+]
